@@ -26,19 +26,20 @@ Go to the project directory
 
 ```bash
   cd service  //backend
-   cd ui   //ui
+  cd ui       //ui
 ```
 
-Start the server
+Start the project
 
 ```bash
   yarn dev:api
+  yarn dev
 ```
 
-Start the ui
+bulid the project
 
 ```bash
-  yarn dev
+  yarn bulid
 ```
 
 ## Environment Variables
