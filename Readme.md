@@ -2,6 +2,12 @@
 
 เป็นโปรเจคสำหรับการพัฒนาระบบสำหรับเว็บขายสินค้าหรือโมดูลอื่นที่เกี่ยวข้อง
 
+## Prepare Program
+
+- NODE.JS V.20 ++
+- yarn
+- docke
+
 ## Run Locally
 
 Clone the project
@@ -16,10 +22,11 @@ Install dependencies
   yarn
 ```
 
-Go to the project-backend directory
+Go to the project directory
 
 ```bash
-  cd service
+  cd service  //backend
+   cd ui   //ui
 ```
 
 Start the server
@@ -28,17 +35,17 @@ Start the server
   yarn dev:api
 ```
 
-Go to the project-frontend directory
-
-```bash
-  cd ui
-```
-
 Start the ui
 
 ```bash
-  yarn  dev
+  yarn dev
 ```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`DATABASE_URL:YOUR_DATA_KEY`
 
 ## Tech Stack
 
