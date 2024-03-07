@@ -12,10 +12,11 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
-model User {
+model Pattern {
   id   String   @id @default(uuid())
-  email String  @unique
-  password String 
+  title String  
+  desc String 
+  price Int
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

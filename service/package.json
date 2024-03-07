@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev:api": "nodemon src/index.ts",
+    "dev:seed": "ts-node prisma/seed.ts",
     "build": "tsc -p .",
     "start": "yarn build && nodemon dist/index.js"
   },
